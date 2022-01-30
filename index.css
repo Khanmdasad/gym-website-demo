@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('images/Gym\ bakcground.jpg');
+    color: white;
+    font-family: 'Supermercado One', cursive;
+}
+
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.left img{
+    width:50px;
+    filter: invert(100%);
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.site-name{
+    color: black;
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto ;
+    /* border: 2px solid green;      */
+}
+
+.right{
+    /* border: 2px solid yellow; */
+    display: inline;
+    position: absolute;
+    right: 24px;
+    top: 20px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 34px 24px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: white;
+}
+
+.btn{
+    margin: 0px 10px;
+    background-color: lightgrey; 
+    padding: 6px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Supermercado One', cursive;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+
+.container{   
+    /* border: 2px solid black; */
+    /* margin: 100px 0px; */
+    padding: 75px;
+    width: 150%;
+    border-radius: 24px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    line-height: 1.5px;
+    width: 300px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-family: 'Supermercado One', cursive;
+}
+
+.container button{
+    text-align: center;
+    width: 320px;
+}
